@@ -21,14 +21,6 @@
 # Go workspace file
 go.work
 
-### Docker ###
-.env
-*.env
-*.env.*
-docker-compose.override.yml
-docker-compose.*.yml
-.docker/
-
 ### Linux ###
 *~
 
@@ -121,3 +113,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+### PocketBase ###
+pb_data/
